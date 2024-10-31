@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "roboto";
+}
+
+.Menù {
+  background-color: #ffc017;
+  max-width: 900px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.5px solid #191919;
+}
+
+.Menù img {
+  width: 100px;
+}
+
+.Menù li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.Menù ul li button {
+  background-color: #191919;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 15px;
+  font-family: "roboto";
+}
+
+.container {
+  background-color: #ffc017;
+}
