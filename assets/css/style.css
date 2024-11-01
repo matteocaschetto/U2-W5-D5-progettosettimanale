@@ -12,6 +12,9 @@ body {
 header {
   background-color: #ffc017;
   border-bottom: 0.5px solid #191919;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .Menù {
@@ -79,14 +82,19 @@ header {
   margin-top: -60px;
 }
 
+.Medium {
+  border-bottom: 0.5px solid #191919;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .articlesMedium {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-inline: 20%;
   max-width: 100%;
   margin-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 0.5px solid #191919;
 }
 
 .article img {
@@ -132,11 +140,10 @@ h2 {
 }
 
 .articlesBottom {
-  margin-inline: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 40%;
+  max-width: 100%;
   margin-top: 20px;
 }
 
@@ -155,8 +162,18 @@ h2 {
   border-radius: 50px;
 }
 
+.icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon :last-child {
+  margin-left: auto;
+}
+
 .bottom {
-  width: 100%;
+  width: 60%;
+  padding-top: 60px;
 }
 
 .ArticlesContent img {
@@ -165,6 +182,41 @@ h2 {
 }
 
 .foto {
-  width: 30%;
+  width: 50%;
   margin-left: 20px;
+}
+
+.contentBottom {
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 20%;
+}
+
+.selectRight {
+  width: 30%;
+  padding-top: 60px;
+  position: sticky;
+  top: 0;
+}
+.selectRight button {
+  background-color: unset;
+  border: 1px solid rgb(239, 239, 239);
+  color: rgb(154, 152, 152);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.ContentselectRight1 {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(154, 152, 152);
+}
+
+.selectRight ul li {
+  display: inline-block;
+  margin: 10px;
+  color: rgb(154, 152, 152);
+}
+.selectRight ul {
+  padding: unset;
 }
